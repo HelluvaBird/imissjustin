@@ -17,6 +17,15 @@ const Countdown = () => {
     };
     setInterval(getMissingJustin, 1000);
   }, []);
+  if (!days) {
+    return (
+      <div>
+        <h2 style={{ textAlign: "center", color: "#ddd" }}>
+          Missing Justin...{" "}
+        </h2>
+      </div>
+    );
+  }
   return (
     <div>
       <h2 style={{ textAlign: "center", color: "#ddd" }}>Last seen:</h2>
