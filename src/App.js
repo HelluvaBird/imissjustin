@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import justin from "./imgs/98414668_2716434151972843_3792080579017572352_n.jpg";
+import Countdown from "./components/Countdown";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{ color: "#ddd" }}>I MISS JUSTIN</h1>
+      <div className="image">
+        <img src={justin} alt="i miss justin" />
+      </div>
+      <Countdown />
     </div>
   );
 }
