@@ -1,0 +1,61 @@
+.accordion-title {
+  text-align: center;
+}
+
+.imissjustin-accordion {
+  width: 800px;
+  margin: 90px auto;
+  color: black;
+  background-color: white;
+  padding: 45px 45px;
+  border-radius: 0.25rem;
+}
+
+.imissjustin-accordion .container {
+  position: relative;
+  margin: 10px 10px;
+}
+
+.imissjustin-accordion .label {
+  position: relative;
+  padding: 10px 0;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+.imissjustin-accordion .label::before {
+  content: "+";
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+.imissjustin-accordion .content {
+  position: relative;
+  background: white;
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 600px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.imissjustin-accordion hr {
+  width: 100;
+  margin-left: 0;
+  border: 1px solid grey;
+}
+
+.imissjustin-accordion .container.active .content {
+  height: 150px;
+}
+
+.imissjustin-accordion .container.active .label::before {
+  content: "-";
+  font-size: 30px;
+}

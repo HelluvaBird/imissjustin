@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Accordion } from "react-bootstrap";
 
 const Countdown = () => {
   const [days, setDays] = useState(0);
@@ -39,27 +38,6 @@ const Countdown = () => {
           {seconds < 10 ? `0${seconds}` : seconds} seconds
         </div>
       </div>
-      <Accordion>
-        <Accordion.Item eventKey="0">
-          <Accordion.Header>February 3, 2022 Update</Accordion.Header>
-          <Accordion.Body>
-            ThePoMoTroll via Discord said: My bad guys, sorry for going MIA. Im
-            in Tennessee, staying with my fiancé. The weather hasnt really
-            cooperated so I couldnt come back up to Ohio. Im doing really good
-            though and havent been sold into sex slavery.
-          </Accordion.Body>
-        </Accordion.Item>
-      </Accordion>
-      <Accordion>
-        <Accordion.Item eventKey="1">
-          <Accordion.Header>Why do we miss Justin?</Accordion.Header>
-          <Accordion.Body>
-            Justin was last seen on December 21st 2021. Don't worry though, he's
-            not missing. We just miss him. Justin drove down to Tennessee. If
-            you happen to see Justin let him know that we miss him.
-          </Accordion.Body>
-        </Accordion.Item>
-      </Accordion>
     </div>
   );
 };
