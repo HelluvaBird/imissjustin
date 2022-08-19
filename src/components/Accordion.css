@@ -34,15 +34,17 @@
   transform: translateY(-50%);
 }
 
+.imissjustin-accordion .content-wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
 .imissjustin-accordion .content {
   position: relative;
   background: white;
-  height: 0;
   font-size: 20px;
   text-align: justify;
-  width: 600px;
-  overflow: hidden;
-  transition: 0.5s;
 }
 
 .imissjustin-accordion hr {
