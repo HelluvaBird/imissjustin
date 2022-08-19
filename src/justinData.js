@@ -15,4 +15,15 @@ export const data = [
         cooperated so I couldnt come back up to Ohio. Im doing really good
         though and havent been sold into sex slavery.`,
   },
+  {
+    id: 3,
+    label: "April 9, 2022 Update",
+    content:
+      "Our Grandmother passed away and the following day Justin came back home to attend her funeral which was held on the 13th. This was the first time we got to see Justin since his departure in December. Justin returned to Tennessee on the 14th.",
+  },
+  {
+    id: 4,
+    label: "Did Justin move to Georgia?",
+    content: "Yes! Justin has moved from Tennessee to Georgia.",
+  },
 ];

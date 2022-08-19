@@ -1,14 +1,17 @@
 .accordion-title {
   text-align: center;
+  color: #ddd;
+  margin-bottom: 0.5rem;
 }
 
 .imissjustin-accordion {
-  width: 800px;
+  width: 100%;
   margin: 90px auto;
   color: black;
-  background-color: white;
+  background-color: #333;
   padding: 45px 45px;
   border-radius: 0.25rem;
+  border: 1px solid gray;
 }
 
 .imissjustin-accordion .container {
@@ -20,13 +23,13 @@
   position: relative;
   padding: 10px 0;
   font-size: 30px;
-  color: black;
+  color: #ddd;
   cursor: pointer;
 }
 
 .imissjustin-accordion .label::before {
   content: "+";
-  color: black;
+  color: #ddd;
   position: absolute;
   top: 50%;
   right: -5px;
@@ -42,7 +45,8 @@
 
 .imissjustin-accordion .content {
   position: relative;
-  background: white;
+  background: #333;
+  color: #ddd;
   font-size: 20px;
   text-align: justify;
 }
@@ -50,7 +54,7 @@
 .imissjustin-accordion hr {
   width: 100;
   margin-left: 0;
-  border: 1px solid grey;
+  border: 1px solid gray;
 }
 
 .imissjustin-accordion .container.active .content {

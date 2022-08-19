@@ -6,7 +6,7 @@ const Countdown = () => {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
   useEffect(() => {
-    const lastseen = new Date("December 21, 2021 00:00:00");
+    const lastseen = new Date("April 14, 2022 00:00:00");
     const getMissingJustin = () => {
       const diff = Date.now() - lastseen;
       setDays(Math.floor(diff / 1000 / 60 / 60 / 24));

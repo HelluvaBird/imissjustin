@@ -7,7 +7,7 @@ const Accordion = () => {
     <>
       <div className="accordion-body">
         <div className="imissjustin-accordion">
-          <h1 className="accordion-title">Frequently Asked Questions</h1>
+          <h1 className="accordion-title">I Miss Justin Timeline</h1>
           <hr />
           {data &&
             data.map((container) => (
